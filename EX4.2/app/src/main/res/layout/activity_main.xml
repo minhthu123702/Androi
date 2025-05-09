@@ -8,12 +8,103 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:text="Chương Trình Tính Chỉ Số BMI"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Nhập Tên"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="88dp" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chiều Cao"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính BMI"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI="
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chuẩn đoán"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="343dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
