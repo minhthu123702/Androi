@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Demor_Cyclefile"
+rootProject.name = "Ex02"
 include(":app")

@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.project1"
-    compileSdk = 35
+    namespace = "com.example.ex01"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.project1"
+        applicationId = "com.example.ex01"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -26,8 +26,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 

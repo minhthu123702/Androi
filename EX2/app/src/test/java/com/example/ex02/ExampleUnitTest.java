@@ -1,4 +1,4 @@
-package com.example.demor_cyclefile;
+package com.example.ex02;
 
 import org.junit.Test;
 
