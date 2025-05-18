@@ -35,10 +35,8 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHold
     public int getItemCount() {
         return historyList.size();
     }
-
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView textView;
-
         public ViewHolder(View itemView) {
             super(itemView);
             textView = itemView.findViewById(android.R.id.text1);

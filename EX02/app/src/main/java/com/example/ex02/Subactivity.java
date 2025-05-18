@@ -24,7 +24,7 @@ public class Subactivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-//        TextView txtBack = findViewById(R.id.txtBack);
+
         Button btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(v -> {
             Intent intent = new Intent(this, MainActivity.class);
