@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+//KHAI BAO
         EditText edtA, edtB, edtTong;
         Button btnTong;
         edtA = findViewById(R.id.edtA);
